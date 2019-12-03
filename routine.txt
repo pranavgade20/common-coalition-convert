@@ -1,0 +1,12 @@
+#https://mycoalition.org/app
+#https://apply.commonapp.org/login
+# comments begin with #
+# first two lines must be urls of locations to read from and write to respectively, prefixed with #
+# all other lines must be prefixed with '#', 'i', or 'o'. newlines will be ignored.
+# i specifies that the operation is to be done on the 'in' window
+# o specifies that the operation is to be done on the 'out' window
+
+# perform operation 'g'(goto) on in window
+i g https://www.mycoalition.org/app#/profile/
+# perform operation 'g'(goto) on out window
+o g https://apply.commonapp.org/common/
