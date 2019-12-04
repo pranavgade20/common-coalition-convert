@@ -9,4 +9,14 @@
 # perform operation 'g'(goto) on in window
 i g https://www.mycoalition.org/app#/profile/
 # perform operation 'g'(goto) on out window
-o g https://apply.commonapp.org/common/
+o g https://apply.commonapp.org/common/3/11
+
+i r /html/body/app/div/main/ui-view/div/div/div[2]/div/form/div[2]/ng-form/div[2]/dl/dd
+o c //*[@id="text_ques_173"]
+o w //*[@id="text_ques_173"]
+
+# a list of operations:
+# g => go to the url that follows
+# c => click on the element specified by the xpath that follows
+# r => read the element specified by the xpath that follows, and push it on the stack
+# w => pop a value from the stack and write it to the element specified by the xpath that follows
